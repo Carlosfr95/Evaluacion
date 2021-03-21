@@ -1,0 +1,15 @@
+#provincias li:last-child{
+background-color: rgb(0, 76, 250);
+}
+li:nth-child(even){
+    text-decoration:underline green;
+}
+li{
+    display: inline;
+    padding-right: 10px;
+    list-style-type: lower-roman;
+}
+.lista li:nth-child(4){
+    font-size: 2rem;
+    text-transform: uppercase;
+}
