@@ -1,0 +1,32 @@
+form{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 800px;
+    min-height: 400px;
+}
+#nombre{
+    border: solid red;
+}
+#email{
+    border:solid red
+}
+fieldset{
+    background-color: rgb(192, 192, 192);
+    padding: 1rem;
+}
+fieldset :hover{
+    background-color: grey;
+}
+fieldset:first-of-type{
+    border-bottom: solid black 5px ;
+}
+fieldset:last-of-type{
+    border-bottom: solid black 5px ;
+}
+button{
+    color: white;
+    background-color: black;   
+    border: none;
+    outline: none;
+}
