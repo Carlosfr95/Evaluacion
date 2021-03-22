@@ -1,0 +1,61 @@
+*{
+    background-color: orange;
+}
+h1{
+    color: white;
+    padding: 3rem;
+    font-size: 7rem;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+     margin-left: 15rem;
+}
+#ficha1{
+    width: 20rem;;
+    margin: 3rem;
+    overflow: hidden;
+    background-color: white;
+}
+h2{
+    background-color: white;
+    text-align: center;
+}
+p{
+    background-color: purple;
+    padding: 2rem;
+    color: white;
+    margin-bottom: 0;
+}
+img{
+    width:150px;
+    height:150px;
+    border-radius:75px;
+    margin-top: 1.5rem;
+}
+.redes{
+    width:30px;
+    height:30px;
+    background-color: white;
+    padding: 0.5rem;
+    margin-left: 2.5rem;
+}
+img:first-child{
+ margin-left: 5rem;
+}
+img:nth-child(6){ 
+margin-left: 5rem;
+}
+#ficha2{
+    width: 20rem;
+    margin: 3rem;
+    overflow: hidden;
+    background-color: white;
+}
+#ficha3{
+    width: 20rem;;
+    margin: 3rem;
+    overflow: hidden;
+    background-color: white;
+}
